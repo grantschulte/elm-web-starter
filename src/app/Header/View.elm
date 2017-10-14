@@ -18,7 +18,7 @@ view model =
             ]
             [ span
                 [ class "material-icons mr1 h3" ]
-                [ text "favorite" ]
+                [ text "nature" ]
             , span
                 []
                 [ text model.title ]

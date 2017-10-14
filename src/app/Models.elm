@@ -33,5 +33,5 @@ initialModel : Config -> Model
 initialModel config =
     { config = config
     , route = HomeRoute
-    , title = "Sap - An Elm Web App Starter"
+    , title = "Sap"
     }
