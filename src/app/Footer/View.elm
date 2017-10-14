@@ -16,7 +16,7 @@ view model =
             [ id "" ]
             [ ul
                 [ id ""
-                , class "list-reset"
+                , class "list-reset m0 center h6"
                 ]
                 [ li
                     [ class "inline-block pr2" ]

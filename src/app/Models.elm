@@ -4,7 +4,8 @@ module Models exposing (..)
 
 
 type Route
-    = HomeRoute
+    = AboutRoute
+    | HomeRoute
 
 
 type alias Title =

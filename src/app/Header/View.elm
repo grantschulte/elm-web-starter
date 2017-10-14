@@ -10,15 +10,30 @@ view : Model -> Html Msg
 view model =
     header
         [ id "header"
-        , class "flex items-center p2 border-bottom"
+        , class "flex flex-wrap items-center p2"
         ]
         [ div
-            [ class "flex items-center" ]
+            [ id "header__logo"
+            , class "flex items-center mr-auto"
+            ]
             [ span
                 [ class "material-icons mr1 h3" ]
                 [ text "favorite" ]
             , span
                 []
                 [ text model.title ]
+            ]
+        , div
+            [ id "header__app-nav"
+            , class "flex items-center justify-end"
+            ]
+            [ a
+                [ href "/" ]
+                [ text "Home" ]
+            , a
+                [ href "/about"
+                , class "ml2"
+                ]
+                [ text "About" ]
             ]
         ]

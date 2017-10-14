@@ -1,8 +1,9 @@
 module View exposing (..)
 
+import About.View
 import Footer.View
 import Header.View
-import Home.View exposing (..)
+import Home.View
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Messages exposing (..)
@@ -27,3 +28,6 @@ page model =
     case model.route of
         HomeRoute ->
             Home.View.view model
+
+        AboutRoute ->
+            About.View.view model
