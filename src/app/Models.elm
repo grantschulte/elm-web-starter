@@ -3,6 +3,10 @@ module Models exposing (..)
 -- TYPES
 
 
+type Route
+    = HomeRoute
+
+
 type alias Title =
     String
 
@@ -14,8 +18,9 @@ type alias Config =
 
 
 type alias Model =
-    { title : Title
-    , config : Config
+    { config : Config
+    , route : Route
+    , title : Title
     }
 
 
@@ -25,6 +30,7 @@ type alias Model =
 
 initialModel : Config -> Model
 initialModel config =
-    { title = "Elm Web Starter"
-    , config = config
+    { config = config
+    , route = HomeRoute
+    , title = "Sap - An Elm Web App Starter"
     }

@@ -1,7 +1,7 @@
-Elm Web Starter
+Sap - An Elm Web App Starter
 =======
 
-An Elm + Webpack web app starter. This starter uses Webpack for building the Elm app, and [surge](https://surge.sh/) or Github Pages for hosting your static build.
+Sap is an Elm web app starter for quick prototyping. This starter uses [Webpack](https://webpack.js.org/) for compiling code, [Basscss]() and [Google Material Icons] for UI scaffolding, Github Pages and [Surge.sh] for easy deployment to testing environments, and [json server](https://github.com/typicode/json-server) for faking a RESTful API implementation.
 
 # Table of Contents
 [Setup](#setup)  
