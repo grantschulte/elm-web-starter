@@ -10837,8 +10837,8 @@ var _user$project$Routing$parseLocation = function (location) {
 		return _user$project$Models$NotFoundRoute;
 	}
 };
-var _user$project$Routing$homePath = '/#';
-var _user$project$Routing$aboutPath = '/#about';
+var _user$project$Routing$homePath = '#';
+var _user$project$Routing$aboutPath = '#about';
 
 var _user$project$Footer_View$view = function (model) {
 	return A2(
