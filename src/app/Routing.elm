@@ -10,12 +10,12 @@ import UrlParser exposing (..)
 
 aboutPath : String
 aboutPath =
-    "/#about"
+    "#about"
 
 
 homePath : String
 homePath =
-    "/#"
+    "#"
 
 
 
