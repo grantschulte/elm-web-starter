@@ -1,7 +1,7 @@
 SaPP - Style and Prototyping Pack
 =======
 
-SaPP is an Elm starter for quick web app prototyping. This starter uses [Webpack](https://webpack.js.org/) for bundling, [Basscss]() and [Google Material Icons] for UI scaffolding, Github Pages and [Surge.sh] for easy deployment to testing environments, and [json server](https://github.com/typicode/json-server) for faking a RESTful API implementation.
+SaPP is an Elm starter for quick web app prototyping. This starter uses [Webpack](https://webpack.js.org/) for bundling, [Basscss](http://basscss.com/) and [Google Material Icons](https://material.io/icons/) for UI scaffolding, [Github Pages](https://pages.github.com/) and [Surge.sh](http://surge.sh/) for easy deployment to testing environments, and [json server](https://github.com/typicode/json-server) for faking a RESTful API implementation.
 
 # Table of Contents
 [Setup](#setup)  
