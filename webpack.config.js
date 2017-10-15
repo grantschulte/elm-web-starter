@@ -82,8 +82,9 @@ module.exports = (env) => {
   	],
 
     devServer: {
+      historyApiFallback: true,
       inline: true,
-      stats: { colors: true },
+      stats: { colors: true }
     }
   }
 }

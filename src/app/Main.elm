@@ -1,8 +1,9 @@
 module Main exposing (..)
 
-import Html exposing (..)
 import Messages exposing (..)
 import Models exposing (Config, Model, initialModel)
+import Navigation exposing (..)
+import Routing exposing (parseLocation)
 import Update exposing (update)
 import View exposing (view)
 
@@ -10,9 +11,13 @@ import View exposing (view)
 -- INIT
 
 
-init : Config -> ( Model, Cmd Msg )
-init config =
-    ( initialModel config, Cmd.none )
+init : Config -> Location -> ( Model, Cmd Msg )
+init config location =
+    let
+        currentRoute =
+            parseLocation location
+    in
+    ( initialModel config currentRoute, Cmd.none )
 
 
 
@@ -30,7 +35,7 @@ subscriptions model =
 
 main : Program Config Model Msg
 main =
-    Html.programWithFlags
+    Navigation.programWithFlags Messages.OnLocationChange
         { init = init
         , view = view
         , update = update

@@ -4,6 +4,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Messages exposing (..)
 import Models exposing (..)
+import Routing exposing (aboutPath, homePath)
 
 
 view : Model -> Html Msg
@@ -21,13 +22,13 @@ view model =
                 [ li
                     [ class "inline-block pr2" ]
                     [ a
-                        [ href "/" ]
+                        [ href homePath ]
                         [ text "Home" ]
                     ]
                 , li
                     [ class "inline-block pr2" ]
                     [ a
-                        [ href "/about" ]
+                        [ href aboutPath ]
                         [ text "About" ]
                     ]
                 ]

@@ -4,6 +4,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Messages exposing (..)
 import Models exposing (..)
+import Routing exposing (aboutPath, homePath)
 
 
 view : Model -> Html Msg
@@ -28,10 +29,10 @@ view model =
             , class "flex items-center justify-end"
             ]
             [ a
-                [ href "/" ]
+                [ href homePath ]
                 [ text "Home" ]
             , a
-                [ href "/about"
+                [ href aboutPath
                 , class "ml2"
                 ]
                 [ text "About" ]

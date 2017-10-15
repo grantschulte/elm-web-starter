@@ -31,3 +31,11 @@ page model =
 
         AboutRoute ->
             About.View.view model
+
+        NotFoundRoute ->
+            div
+                []
+                [ h4
+                    []
+                    [ text "404" ]
+                ]

@@ -1,11 +1,14 @@
 module Models exposing (..)
 
--- TYPES
-
 
 type Route
     = AboutRoute
     | HomeRoute
+    | NotFoundRoute
+
+
+
+-- TYPES
 
 
 type alias Title =
@@ -29,9 +32,9 @@ type alias Model =
 -- INITIAL MODEL
 
 
-initialModel : Config -> Model
-initialModel config =
+initialModel : Config -> Route -> Model
+initialModel config route =
     { config = config
-    , route = AboutRoute
+    , route = route
     , title = "SaPP"
     }

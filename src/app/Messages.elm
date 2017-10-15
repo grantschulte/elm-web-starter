@@ -1,7 +1,8 @@
 module Messages exposing (..)
 
--- MESSAGES
+import Navigation exposing (Location)
 
 
 type Msg
     = NoOp
+    | OnLocationChange Location
