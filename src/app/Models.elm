@@ -32,6 +32,6 @@ type alias Model =
 initialModel : Config -> Model
 initialModel config =
     { config = config
-    , route = HomeRoute
+    , route = AboutRoute
     , title = "SaPP"
     }
