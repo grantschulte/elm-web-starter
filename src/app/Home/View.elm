@@ -14,8 +14,7 @@ view model =
         , class "page"
         ]
         [ div
-            [ class "page__feature"
-            , style [ ( "backgroundImage", "url('./assets/images/fall.jpg')" ) ]
+            [ class "page__feature page__feature--home"
             ]
             [ div
                 [ class "flex items-center max-width-3 mr-auto ml-auto h100 px2" ]

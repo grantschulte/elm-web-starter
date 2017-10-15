@@ -62,7 +62,7 @@ module.exports = (env) => {
         }
       ],
 
-      noParse: /\.elm$/,
+      noParse: /\.elm$/
     },
 
     /*
