@@ -10,12 +10,12 @@ import UrlParser exposing (..)
 
 aboutPath : String
 aboutPath =
-    "/about"
+    "/#about"
 
 
 homePath : String
 homePath =
-    "/"
+    "/#"
 
 
 
@@ -32,7 +32,7 @@ route =
 
 parseLocation : Location -> Route
 parseLocation location =
-    case parsePath route location of
+    case parseHash route location of
         Just route ->
             route
 
