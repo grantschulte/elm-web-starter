@@ -1,7 +1,7 @@
-Sap - An Elm Web App Starter
+SaPP - Style and Prototyping Pack
 =======
 
-Sap is an Elm web app starter for quick prototyping. This starter uses [Webpack](https://webpack.js.org/) for compiling code, [Basscss]() and [Google Material Icons] for UI scaffolding, Github Pages and [Surge.sh] for easy deployment to testing environments, and [json server](https://github.com/typicode/json-server) for faking a RESTful API implementation.
+SaPP is an Elm starter for quick web app prototyping. This starter uses [Webpack](https://webpack.js.org/) for bundling, [Basscss]() and [Google Material Icons] for UI scaffolding, Github Pages and [Surge.sh] for easy deployment to testing environments, and [json server](https://github.com/typicode/json-server) for faking a RESTful API implementation.
 
 # Table of Contents
 [Setup](#setup)  

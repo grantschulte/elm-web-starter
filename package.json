@@ -1,7 +1,7 @@
 {
   "name": "elm-webpack-starter",
   "version": "0.0.1",
-  "description": "SaPP is an Elm web app starter for quick prototyping. This starter uses Webpack for compiling code, Basscss and Google Material Icons for UI scaffolding, Github Pages and Surge.sh for easy deployment to testing environments, and json server for faking a RESTful API implementation.",
+  "description": "SaPP is an Elm starter for quick web app prototyping.",
   "main": "./src/index.js",
   "author": "Grant J. Schulte <schulte.grant@gmail.com>",
   "license": "MIT",
