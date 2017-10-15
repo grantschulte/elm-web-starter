@@ -9,9 +9,9 @@ import "styles/app.scss";
 
 // Import Favicons
 
-// import "images/favicon.ico";
-// import "images/favicon-16x16.png";
-// import "images/favicon-32x32.png";
+import "images/favicon.ico";
+import "images/favicon-16x16.png";
+import "images/favicon-32x32.png";
 
 // Copy index.html to /dist
 
