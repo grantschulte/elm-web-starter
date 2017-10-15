@@ -33,5 +33,5 @@ initialModel : Config -> Model
 initialModel config =
     { config = config
     , route = HomeRoute
-    , title = "Sap"
+    , title = "SaPP"
     }

@@ -23,3 +23,19 @@ infoText model =
             , div [] [ text model.config.apiUrl ]
             ]
         ]
+
+
+pageHeading : Int -> String -> Html Msg
+pageHeading hSize title =
+    case hSize of
+        1 ->
+            h1 [] [ text title ]
+
+        2 ->
+            h2 [] [ text title ]
+
+        3 ->
+            h3 [] [ text title ]
+
+        _ ->
+            h1 [] [ text title ]
