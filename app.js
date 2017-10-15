@@ -10830,15 +10830,15 @@ var _user$project$Routing$route = _evancz$url_parser$UrlParser$oneOf(
 		}
 	});
 var _user$project$Routing$parseLocation = function (location) {
-	var _p0 = A2(_evancz$url_parser$UrlParser$parsePath, _user$project$Routing$route, location);
+	var _p0 = A2(_evancz$url_parser$UrlParser$parseHash, _user$project$Routing$route, location);
 	if (_p0.ctor === 'Just') {
 		return _p0._0;
 	} else {
 		return _user$project$Models$NotFoundRoute;
 	}
 };
-var _user$project$Routing$homePath = '/';
-var _user$project$Routing$aboutPath = '/about';
+var _user$project$Routing$homePath = '/#';
+var _user$project$Routing$aboutPath = '/#about';
 
 var _user$project$Footer_View$view = function (model) {
 	return A2(
